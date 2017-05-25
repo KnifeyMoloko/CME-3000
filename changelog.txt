@@ -301,3 +301,14 @@ main.py.
 in the Event class to the main loop.
 5. Added the .idea folder to .gitignore so we don't overwrite each others
 PyCharm settings.
+
+###############################################################################
+
+Commit nr 24 - NEU! level-editor branch NEU!
+
+1. Started new branch to work on a level editing module combined with the
+current pickling procedure.
+2. Did some housecleaning in the files in the main game folder.
+3. Created a new level_editor.py file for the editor.
+4. Updated all module packages.
+5. Installed the newest version of tkinter for python-2.7.3
