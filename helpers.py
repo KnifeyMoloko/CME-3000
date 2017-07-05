@@ -51,3 +51,27 @@ def saver():
 def loader():
     pass
     # return load
+
+
+def folder_browser(path=os.getcwd()+"/Resources"):
+    """
+    This function is meant to be integrated with TKinter
+    to produce lists or dropdowns of elements that we can
+    use in the level editor's grids by browsing through
+    the resources directory.
+    :param path: a string defining the path to browse in
+    defaults to the current working directory/Resources
+    :return: list of contents in the path location
+    """
+    starting_path = path
+
+    return os.listdir(starting_path)
+
+
+def make_tuple_from_iterable(obj):
+    iterable = iter(obj)
+    while iterable.next():
+        return iterable.next()
+
+
+

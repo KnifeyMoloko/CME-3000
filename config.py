@@ -10,6 +10,7 @@ import classes
 import helpers
 import numpy
 import time
+import Tkinter
 
 from pygame.locals import *
 from helpers import *

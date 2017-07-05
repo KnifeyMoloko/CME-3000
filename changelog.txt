@@ -312,3 +312,19 @@ current pickling procedure.
 3. Created a new level_editor.py file for the editor.
 4. Updated all module packages.
 5. Installed the newest version of tkinter for python-2.7.3
+
+###############################################################################
+
+Commit nr 25 - level-editor branch - browser function
+
+1. Wrote a folder_browser function in helpers. It takes a path as argument
+(or defaults to the current working directory/Resources) and lists the contents
+of that path.
+2. Added a button (bg_button) that calls the user for choosing the background
+and then uses a callback that creates a listbox TkInter object.
+3. The listbox allows to browse the folders in cwd/Resources using a snazzy
+recursive poll(self) method.
+Next up: make the browser check if it's browsing folders or files and make the
+action upon selecting a folder differ from the one after selecting a file.
+Next up 2: add a "go back / up" option to browsing - right now it's a one way
+street.
