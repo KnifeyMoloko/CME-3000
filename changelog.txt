@@ -328,3 +328,13 @@ Next up: make the browser check if it's browsing folders or files and make the
 action upon selecting a folder differ from the one after selecting a file.
 Next up 2: add a "go back / up" option to browsing - right now it's a one way
 street.
+
+###############################################################################
+
+Commit nr 25 - level-editor branch - browser function ctd.
+
+1. Added a check for folder / file distinction with plans to making a fork in
+the control flow: either enter selected, if folder, or bring up a button prompt
+for a file, asing if it should be treated as the selected background.
+2. Additional work is needed to smooth out the workings of the browser before
+the image rendering is inserted.
